@@ -1,0 +1,8 @@
+#which wiimote will be used?
+wiimote 1
+#how sensitive is this solver
+sensitivity 0.99
+#how much should the angles from the wiimote multiply for (accelerate)
+accelerator 0.5
+#the start position of the vector written to the port
+firstvector (0 1 0)

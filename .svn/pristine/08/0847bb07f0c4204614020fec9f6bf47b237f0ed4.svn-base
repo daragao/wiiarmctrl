@@ -1,0 +1,27 @@
+#robot name
+robot icub
+#what type of control to use kinematic(kinematic) or motor joints(motor)
+controlType motor
+#part name
+part right_arm
+#wiimote port
+wiiRemotePort wiimote0
+wiiSolverRemotePort WiiYarpPortsCtrl0
+#local port
+localPortPrefix icubwiimotectrl
+#which wiimote will be used?
+wiimote 0
+#(MOTOR ONLY) maximum speed and accelaration for the icub
+motorSpeed 5
+motorAcceleration 1
+#(MOTOR ONLY) speedmultiplier value (value multiplied by the real speed form the wiimote)
+speedmultiplier 1
+#(KINEMATIC ONLY) the minimum amount of time that it takes the robot part to move for point A to point B (the larger the number the slower it moves)#1.5
+trajTime 5
+
+#grasping port
+graspingport /abstractHandCtrl/right_arm
+#grasp commands
+graspcmd "do GRIP"
+pregraspcmd "do PREGRIP"
+graspreleasecmd "do RELEASE"

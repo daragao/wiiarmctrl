@@ -1,0 +1,63 @@
+%\documentclass[11pt,a4paper]{article}
+\documentclass[conference]{IEEEtran}
+
+% ======
+% Lingua
+% ======
+\usepackage[latin1]{inputenc}
+
+% ==================
+% Pacotes auxiliares
+% ==================
+\usepackage[caption=false,font=footnotesize]{subfig}
+\usepackage{multirow}
+\usepackage{slashbox}
+\usepackage{verbatim}
+\usepackage{subfig}
+\usepackage{acronym}
+\usepackage[hyphens]{url}
+\usepackage{amssymb}             % simbolos matematicos extra
+%\usepackage{pstricks,pst-tree}   % graficos em Postscript
+\usepackage[final]{graphicx}            % imagens
+\usepackage{epstopdf}
+\usepackage{multicol}            % multiplas colunas
+\usepackage{listings}		 % para programas
+\usepackage{microtype} % makes pdf look better
+\lstset{language=C,
+  basicstyle=\ttfamily,
+  keywordstyle=\ttfamily\bfseries,
+  ndkeywordstyle=\ttfamily,
+  %indent=-5.5ex,
+  %stringspaces=false,
+}
+\usepackage{pdfpages}
+\usepackage[breaklinks,hyperindex=true, pdfnewwindow=true, pdftitle={Comparing new and old interfaces for the control of an humanoid robot},pdfsubject={Computer Engineering Master Thesis Dissertation}, pdfauthor={Duarte Aragao}, pdfkeywords={interaction, humanoid, comparison, Kinect sensor and Wii Remote}, colorlinks=false, pagebackref=false, citecolor=blue, plainpages=false, pdfpagelabels, pdfborder={0 0 0}]{hyperref}
+
+% ======================================================
+% Macros especificas da dissertacao, facilitam a escrita
+% ======================================================
+\def\imply{\rightarrow}
+
+% ============
+% Configuração
+% ============
+% Dimensoes da folha A4paper = 210mm x 297mm
+\setlength{\textheight}{23.3cm}
+\setlength{\textwidth}{15.6cm}
+
+% Topo
+\setlength{\topmargin}{-\headheight}
+\setlength{\headsep}{0.43cm}
+
+% Lados
+% 3cm + 2.5cm = 5.5cm,  210-55 = 155mm = \textwidth (com marginparsep=marginparwidth=0)
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\oddsidemargin}{0.45cm}
+\setlength{\evensidemargin}{0.46cm}
+
+\renewcommand{\baselinestretch}{1.5}   % espacamento de 1.5 linhas
+\setlength{\parindent}{0in}            % recorte nulo na 1ª linha do paragrafo
+
+\setcounter{secnumdepth}{3}     % máxima profundidade para secções
+\setcounter{tocdepth}{3}        % indice até 3 niveis

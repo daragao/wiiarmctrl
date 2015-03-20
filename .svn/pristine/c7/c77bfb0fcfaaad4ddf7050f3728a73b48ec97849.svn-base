@@ -1,0 +1,69 @@
+---------------------------
+-
+-  README - Wiiuse 0.13
+-
+---------------------------
+
+
+WHAT'S NEW?
+
+- OSX support
+- WiiMotionPlus support
+
+
+ABOUT
+
+    This realease of wiiuse is based on the release 0.12 with motion-plus
+    support from the fWiine project. After reading the dolphin-emu source code
+    and picking some ideas there, a new implementation has been written. The
+    main entry file is io_osx.c that mimics io_win.c or io_nix.c.
+
+    This release has been successfully tested with the sample test code under
+    osx (10.5 and 10.6). There is also an "external" (a plugin) for the PureData
+    music software. This external, which uses the wiiuse shared library, has
+    been tested successfully both on osx and windows.
+
+
+AUTHORS
+
+	Core wiiuse files:
+    	Michael Laforest        < para >
+    	Email: < thepara (--AT--) g m a i l [--DOT--] com >
+
+    OSX specific files:
+        Benoit Pin
+        Email: benoit.pin@mines-paristech.fr
+    
+    WiiMotionPlus integration:
+        fWiine project's contributors
+
+
+COMPILING
+
+    OSX:
+        You will find in this archive the source code with the xcode project,
+        ready to compile. The project has 3 "targets":
+            1- the wiiuse dynamic library itself;
+            2- the test executable;
+            3- the PureData external (also a dynamic library).
+
+        At least you need to "build" the "wiiuse" target and put the resulting
+        wiiuse.dylib file into /usr/local/lib
+    
+    Linux, Windows:
+        see ./src/wiiuse_0.12/README
+
+
+LICENSE
+
+    The license options are:
+    	a) GNU LGPL (modified for non-commercial usage only)
+    	b) GNU GPL
+
+    Please refer to ./src/wiiuse_0.12/README for complete information
+
+
+ACKNOWLEDGEMENTS
+    wiiuse: http://sourceforge.net/projects/wiiuse/
+    fWiine: http://fwiineur.blogspot.com/
+    dolphin-emu: http://code.google.com/p/dolphin-emu/

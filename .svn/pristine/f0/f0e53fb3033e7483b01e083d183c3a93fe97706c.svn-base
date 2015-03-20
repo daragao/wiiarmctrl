@@ -1,0 +1,4 @@
+#what will be the port prefix
+portprefix wiimote
+#what will be the main thread period (wiimote reading period)
+threadperiod 0.1

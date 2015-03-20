@@ -1,0 +1,12 @@
+\begin{abstract}
+
+	This dissertation explores novel and typical interaction devices as an interface for a humanoid robot control. The novel devices used were the Wii gaming console remote control and the Kinect sensor remote control for the Xbox 360 gaming console, the typical devices used were a computer graphical interface and a remote control directional pad.
+	
+	The complexity of humanoid robots such as the iCub, and the need for people to interact with them, either simply for the control of its pose, or for imitation learning, lead to the interest in new forms of interactions with the robot. The new forms of control are expected to be as precise as the previous ones, but to allow a more natural and intuitive interaction. Recent interaction devices released by the gaming industry are a good way to achieve this goals.
+		
+	To understand how these interfaces compare an evaluation was done, consisting of tests with objects for the iCub to reach while being controlled using one of the proposed interaction system. Differences between users, comments, their involvement, and ease of use were compared and associated with users profile and interface characteristics. 
+	
+	The tests results suggest that different users adapt differently to the same interface, having this in mind, it was successfully shown that the new interaction devices can be adapted to obtain better performance while controlling an humanoid robot.
+
+\paragraph{\bf Keywords} interaction, humanoid, comparison, Kinect and Wii 
+\end{abstract}

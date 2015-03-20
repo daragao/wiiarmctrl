@@ -1,0 +1,28 @@
+\begin{acronym}%[HBCI]
+
+\acro{HCI}{Human-Computer Interaction}
+\acro{HRI}{Human-Robot Interaction}
+\acro{TUI}{Tangible User Interface}
+\acro{Wiimote}{Wii Remote}
+\acro{MP}[WM+]{Wii Motion Plus}
+\acro{IR}{Infrared}
+\acro{MOT}{Multi Object Tracking}
+\acro{LED}{Light-Emitting Diode}
+\acro{HID}{Human Interface Device}
+\acro{DOF}{Degree of Freedom}
+\acro{DSP}{Digital Signal Processor}
+\acro{CAN}{Controller area network}
+\acro{Yarp}{Yet Another Robot Platform}
+\acro{API}{Application Programming Interface}
+\acro{FPS}{Frames per second}
+\acro{TOF}[ToF]{Time-of-Flight}
+\acro{GUI}{Graphical User Interface}
+\acro{SVN}{Apache Subversion}
+\acro{TCP}{Transfer Control Protocol}
+\acro{SDK}{Software Development Kit}
+\acro{RGB}{Red Green Blue}
+\acro{RPC}{Remote Procedure Call}
+\acro{I2C}[I$^2$C]{Inter-Integrated Circuit}
+\acro{DPad}[D-Pad]{Directional Pad}
+
+\end{acronym}

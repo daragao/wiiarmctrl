@@ -1,0 +1,42 @@
+\newpage
+\chapter*{Acknowledgments}
+
+First, I would like to thank Professor José Santos-Victor for being my supervisor, and Professor Alexandre Bernardino for their support throughout the development of this dissertation.
+
+I also want to thank all the RoboCub community, Vislab workers and students with whom I discussed and learned many of the things that made this work possible. Specially to Ricardo Nunes, Nuno Conraria, Giovanni Saponaro, and Ashish Jain, for repairing the damage I made to the robot, proof reading early versions of this dissertation, and constantly challenging me to do just one more thing.
+
+I extend my thanks to all my friends for their support and friendship during this periods, and Mafalda Fernandes for the great help on the images of this work.
+
+Finally and foremost, I would like to thank my family, parents and siblings, for their endless support and encouragement throughout my academic path and particularly during the developing period of this dissertation.
+
+\vspace{1.2cm}
+
+\newpage
+\chapter*{Resumo}
+\addcontentsline{toc}{chapter}{Resumo}  % adiciona referencia
+
+	Esta dissertação explora utilização de novos interfaces e interfaces tradicionais para controlo de um robot humanóide. Os novos interfaces utilizados foram o controlo remoto da consola Wii e o sensor Kinect da consola Xbox 360, os interfaces tradicionais utilizados foram um interface gráfico de computador e o cursor de um controlo remoto.
+
+	A complexidade dos robots humanóides, semelhantes ao iCub, e a necessidade de interacção por parte dos humanos, seja para o controlo da sua pose, ou para aprendizagem por demonstração, levou ao estudo de novas formas de interacção com os humanóides. Das novas formas de interacção espera-se que sejam tão simples e claras como as formas tradicionais, mas também que permitam mais interactividade que as antigas soluções. Os novos interfaces apresentados pelas indústria de jogos são uma boa forma para atingir este fim.
+	
+	Para compreender a comparação entes estes interfaces, foi realizado um estudo. Este estudo consistiu em testes com tarefas simples de toque em objectos que estavam colocados ao alcance do iCub. Os comentários, envolvimento, e facilidade de utilização, foi anotada e comparada entre os vários utilizadores, associada a cada um com o peso das características do interface no desempenho das tarefas avaliadas.
+	
+	Os resultados dos testes sugerem que diferentes utilizadores adaptam-se de forma distinta ao mesmo interface, não esquecendo isto, é mostrado que alguns dos novos interfaces podem ser adaptados com sucesso e maior performance para o controlo de um robot humanóide.
+
+	\vspace{1.2cm}
+ {\bf Palavras chave:} interacção, humanóide, comparação, Kinect sensor e Wii remote
+
+\newpage
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+
+	This dissertation explores novel and typical interaction devices as an interface for a humanoid robot control. The novel devices used were the Wii gaming console remote control and the Kinect sensor remote control for the Xbox 360 gaming console, the typical devices used were a computer graphical interface and a remote control directional pad.
+	
+	The complexity of humanoid robots such as the iCub, and the need for people to interact with them, either simply for the control of its pose, or for imitation learning, lead to the interest in new forms of interactions with the robot. The new forms of control are expected to be as precise as the previous ones, but to allow a more natural and intuitive interaction. Recent interaction devices released by the gaming industry are a good way to achieve this goals.
+		
+	To understand how these interfaces compare an evaluation was done, consisting of tests with objects for the iCub to reach while being controlled using one of the proposed interaction system. Differences between users, comments, their involvement, and ease of use were compared and associated with users profile and interface characteristics. 
+	
+	The tests results suggest that different users adapt differently to the same interface, having this in mind, it was successfully shown that the new interaction devices can be adapted to obtain better performance while controlling an humanoid robot.
+
+	\vspace{1.2cm}
+ {\bf Keywords:} interaction, humanoid, comparison, Kinect sensor and Wii remote

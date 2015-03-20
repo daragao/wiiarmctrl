@@ -1,0 +1,37 @@
+\title{
+   \vspace{-20mm}
+   % Logo do IST
+   \begin{minipage}[l]{1.8cm}
+      \includegraphics[width=1\textwidth]{Logo_IST_color.pdf}
+   \end{minipage}
+   % Instituicao
+   \begin{minipage}[r]{11.8cm}
+      \begin{tabular}{c}
+         {\sffamily\Large UNIVERSIDADE TÉCNICA DE LISBOA} \\
+         {\sffamily\Large INSTITUTO SUPERIOR TÉCNICO} \\
+         {\sffamily\Large Departamento de Engenharia Informática} \\
+     \end{tabular}
+   \end{minipage}
+   %\\
+   \vspace{2.2cm} \\
+   % Titulo 
+   {\bf Evaluation of recent game interfaces for the command of a humanoid robot}
+}
+\author{
+    \vspace{10mm} \\
+    {Duarte Cordeiro Ferreira Osório de Aragão} \\
+    %{(Mestre)} \\
+    \vspace{12mm} \\
+    {Dissertação para a Obtenção do Grau de} \\
+    {Mestre em Engenharia Informática e de Computadores }
+    \vspace{28mm} \\
+    \begin{tabular}{ll}
+      \multicolumn{2}{c}{\bf Júri} \\
+      Presidente: & Prof. Francisco S. Melo \\
+      Orientador: & Prof. José Santos-Victor \\
+      Vogal:      & Prof. Alexandre Bernardino \\
+    \end{tabular}
+}
+%\date{\rmfamily 29 de Abril 2011}
+\date{\rmfamily \today}
+\maketitle

@@ -1,0 +1,2 @@
+TITLE TEST_WiiYarpOpenGL
+TEST_WiiYarpOpenGL\build\debug\TEST_WiiYarpOpenGL.exe

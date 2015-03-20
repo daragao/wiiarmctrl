@@ -1,0 +1,11 @@
+#control type can be: skeleton or hand
+controlType skeleton
+robotName vizzy
+#the part can be: torso, right_arm, left_arm, shoulders and all
+partName all
+localPortPrefix vizzyKinect
+kinectRemotePort kinectPort
+wiiRemotePort wiimote0/bots
+#only for the skeleton control
+motorSpeed 20
+motorAcceleration 1

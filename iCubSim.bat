@@ -1,0 +1,1 @@
+..\..\iCub\main\build\bin\start_iCub.bat

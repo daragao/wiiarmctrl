@@ -1,0 +1,2 @@
+START "[WiiYARP]" WiiYARP\build\release\WiiYARP.exe --from WiiYARP/WiiYARP.ini
+START "[KinectYarpSkeleton]" KinectYarpSkeleton\build\Release\KinectYarpSkeleton.exe --from KinectYarpSkeleton/KinectYarpSkeleton.ini

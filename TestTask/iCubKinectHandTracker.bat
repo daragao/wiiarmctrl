@@ -1,0 +1,1 @@
+START "[iCubKinectHandTracker]" ..\Kinect_iCub\build\Release\Kinect_iCub.exe --from iCubKinectHandTracker.ini

@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA02439012A3BCFD00E84AF4 /* motion_plus.h in Headers */ = {isa = PBXBuildFile; fileRef = FA02438E12A3BCFD00E84AF4 /* motion_plus.h */; };
+		FA02439112A3BCFD00E84AF4 /* motion_plus.c in Sources */ = {isa = PBXBuildFile; fileRef = FA02438F12A3BCFD00E84AF4 /* motion_plus.c */; };
+		FA41B81C12AF863200FA0DEF /* m_pd.h in Headers */ = {isa = PBXBuildFile; fileRef = FA41B78512AD625A00FA0DEF /* m_pd.h */; };
+		FA41B86A12AF96BE00FA0DEF /* libwiiuse.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC0630554660B00DB518D /* libwiiuse.dylib */; };
+		FA41B8A712B61F0800FA0DEF /* wiimotes.c in Sources */ = {isa = PBXBuildFile; fileRef = FA41B8A612B61F0800FA0DEF /* wiimotes.c */; };
+		FA42512712DB55C500A044F8 /* WiimoteEventsDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FA42512512DB55C500A044F8 /* WiimoteEventsDispatcher.h */; };
+		FA42512812DB55C500A044F8 /* WiimoteEventsDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FA42512612DB55C500A044F8 /* WiimoteEventsDispatcher.m */; };
+		FA810C5612266E0100728525 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA810C5512266E0100728525 /* IOBluetooth.framework */; };
+		FA810CBF122689C800728525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA810CBE122689C800728525 /* Foundation.framework */; };
+		FA810E5112268F8F00728525 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA810E5012268F8F00728525 /* CoreServices.framework */; };
+		FA8498FF125B1E0B009A4320 /* classic.c in Sources */ = {isa = PBXBuildFile; fileRef = FA8498E3125B1E0B009A4320 /* classic.c */; };
+		FA849900125B1E0B009A4320 /* classic.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8498E4125B1E0B009A4320 /* classic.h */; };
+		FA849901125B1E0B009A4320 /* definitions.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8498E5125B1E0B009A4320 /* definitions.h */; };
+		FA849902125B1E0B009A4320 /* dynamics.c in Sources */ = {isa = PBXBuildFile; fileRef = FA8498E6125B1E0B009A4320 /* dynamics.c */; };
+		FA849903125B1E0B009A4320 /* dynamics.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8498E7125B1E0B009A4320 /* dynamics.h */; };
+		FA849904125B1E0B009A4320 /* events.c in Sources */ = {isa = PBXBuildFile; fileRef = FA8498E8125B1E0B009A4320 /* events.c */; };
+		FA849905125B1E0B009A4320 /* events.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8498E9125B1E0B009A4320 /* events.h */; };
+		FA849906125B1E0B009A4320 /* guitar_hero_3.c in Sources */ = {isa = PBXBuildFile; fileRef = FA8498EA125B1E0B009A4320 /* guitar_hero_3.c */; };
+		FA849907125B1E0B009A4320 /* guitar_hero_3.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8498EB125B1E0B009A4320 /* guitar_hero_3.h */; };
+		FA849908125B1E0B009A4320 /* io.c in Sources */ = {isa = PBXBuildFile; fileRef = FA8498EC125B1E0B009A4320 /* io.c */; };
+		FA849909125B1E0B009A4320 /* io.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8498ED125B1E0B009A4320 /* io.h */; };
+		FA84990C125B1E0B009A4320 /* io_win.c in Sources */ = {isa = PBXBuildFile; fileRef = FA8498F0125B1E0B009A4320 /* io_win.c */; };
+		FA84990D125B1E0B009A4320 /* ir.c in Sources */ = {isa = PBXBuildFile; fileRef = FA8498F1125B1E0B009A4320 /* ir.c */; };
+		FA84990E125B1E0B009A4320 /* ir.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8498F2125B1E0B009A4320 /* ir.h */; };
+		FA849910125B1E0B009A4320 /* nunchuk.c in Sources */ = {isa = PBXBuildFile; fileRef = FA8498F9125B1E0B009A4320 /* nunchuk.c */; };
+		FA849911125B1E0B009A4320 /* nunchuk.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8498FA125B1E0B009A4320 /* nunchuk.h */; };
+		FA849912125B1E0B009A4320 /* os.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8498FB125B1E0B009A4320 /* os.h */; };
+		FA849913125B1E0B009A4320 /* wiiuse.c in Sources */ = {isa = PBXBuildFile; fileRef = FA8498FC125B1E0B009A4320 /* wiiuse.c */; };
+		FA849914125B1E0B009A4320 /* wiiuse.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8498FD125B1E0B009A4320 /* wiiuse.h */; };
+		FA849915125B1E0B009A4320 /* wiiuse_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8498FE125B1E0B009A4320 /* wiiuse_internal.h */; };
+		FA98DCFD124B8F3D0041D374 /* test_and_debug.c in Sources */ = {isa = PBXBuildFile; fileRef = FA98DCEA124B8E7B0041D374 /* test_and_debug.c */; };
+		FA98DD0A124B8FA60041D374 /* libwiiuse.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC0630554660B00DB518D /* libwiiuse.dylib */; };
+		FAA85E9212D71E730008D815 /* Queue.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA85E9012D71E730008D815 /* Queue.h */; };
+		FAA85E9312D71E730008D815 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA85E9112D71E730008D815 /* Queue.m */; };
+		FAF5981C1250C427007C3C5C /* io_osx.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF5981A1250C427007C3C5C /* io_osx.m */; };
+		FAF599511250DD6A007C3C5C /* WiimoteDeviceInquiry.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF5994F1250DD6A007C3C5C /* WiimoteDeviceInquiry.h */; };
+		FAF599521250DD6A007C3C5C /* WiimoteDeviceInquiry.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF599501250DD6A007C3C5C /* WiimoteDeviceInquiry.m */; };
+		FAF59B4C12524B1F007C3C5C /* WiimoteDeviceConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF59B4A12524B1F007C3C5C /* WiimoteDeviceConnection.h */; };
+		FAF59B4D12524B1F007C3C5C /* WiimoteDeviceConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF59B4B12524B1F007C3C5C /* WiimoteDeviceConnection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2AAC0630554660B00DB518D /* libwiiuse.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libwiiuse.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA02438E12A3BCFD00E84AF4 /* motion_plus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = motion_plus.h; sourceTree = "<group>"; };
+		FA02438F12A3BCFD00E84AF4 /* motion_plus.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = motion_plus.c; sourceTree = "<group>"; };
+		FA41B78512AD625A00FA0DEF /* m_pd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = m_pd.h; path = "/Applications/Pd-extended.app/Contents/Resources/include/m_pd.h"; sourceTree = "<absolute>"; };
+		FA41B81412AF855600FA0DEF /* wiimotes.pd_darwin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = wiimotes.pd_darwin; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA41B8A612B61F0800FA0DEF /* wiimotes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wiimotes.c; sourceTree = "<group>"; };
+		FA42512512DB55C500A044F8 /* WiimoteEventsDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiimoteEventsDispatcher.h; sourceTree = "<group>"; };
+		FA42512612DB55C500A044F8 /* WiimoteEventsDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiimoteEventsDispatcher.m; sourceTree = "<group>"; };
+		FA810C5512266E0100728525 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		FA810CBE122689C800728525 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA810E5012268F8F00728525 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		FA8498E3125B1E0B009A4320 /* classic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = classic.c; sourceTree = "<group>"; };
+		FA8498E4125B1E0B009A4320 /* classic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = classic.h; sourceTree = "<group>"; };
+		FA8498E5125B1E0B009A4320 /* definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = definitions.h; sourceTree = "<group>"; };
+		FA8498E6125B1E0B009A4320 /* dynamics.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dynamics.c; sourceTree = "<group>"; };
+		FA8498E7125B1E0B009A4320 /* dynamics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dynamics.h; sourceTree = "<group>"; };
+		FA8498E8125B1E0B009A4320 /* events.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = events.c; sourceTree = "<group>"; };
+		FA8498E9125B1E0B009A4320 /* events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = events.h; sourceTree = "<group>"; };
+		FA8498EA125B1E0B009A4320 /* guitar_hero_3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = guitar_hero_3.c; sourceTree = "<group>"; };
+		FA8498EB125B1E0B009A4320 /* guitar_hero_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guitar_hero_3.h; sourceTree = "<group>"; };
+		FA8498EC125B1E0B009A4320 /* io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = io.c; sourceTree = "<group>"; };
+		FA8498ED125B1E0B009A4320 /* io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = io.h; sourceTree = "<group>"; };
+		FA8498EE125B1E0B009A4320 /* io_nix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = io_nix.c; sourceTree = "<group>"; };
+		FA8498EF125B1E0B009A4320 /* io_osx.orig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = io_osx.orig.m; sourceTree = "<group>"; };
+		FA8498F0125B1E0B009A4320 /* io_win.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = io_win.c; sourceTree = "<group>"; };
+		FA8498F1125B1E0B009A4320 /* ir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ir.c; sourceTree = "<group>"; };
+		FA8498F2125B1E0B009A4320 /* ir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ir.h; sourceTree = "<group>"; };
+		FA8498F9125B1E0B009A4320 /* nunchuk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nunchuk.c; sourceTree = "<group>"; };
+		FA8498FA125B1E0B009A4320 /* nunchuk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nunchuk.h; sourceTree = "<group>"; };
+		FA8498FB125B1E0B009A4320 /* os.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os.h; sourceTree = "<group>"; };
+		FA8498FC125B1E0B009A4320 /* wiiuse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wiiuse.c; sourceTree = "<group>"; };
+		FA8498FD125B1E0B009A4320 /* wiiuse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wiiuse.h; sourceTree = "<group>"; };
+		FA8498FE125B1E0B009A4320 /* wiiuse_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wiiuse_internal.h; sourceTree = "<group>"; };
+		FA98DCEA124B8E7B0041D374 /* test_and_debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_and_debug.c; sourceTree = "<group>"; };
+		FA98DCF9124B8F2D0041D374 /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA85E9012D71E730008D815 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		FAA85E9112D71E730008D815 /* Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		FAF5981A1250C427007C3C5C /* io_osx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = io_osx.m; sourceTree = "<group>"; };
+		FAF5994F1250DD6A007C3C5C /* WiimoteDeviceInquiry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiimoteDeviceInquiry.h; sourceTree = "<group>"; };
+		FAF599501250DD6A007C3C5C /* WiimoteDeviceInquiry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiimoteDeviceInquiry.m; sourceTree = "<group>"; };
+		FAF59B4A12524B1F007C3C5C /* WiimoteDeviceConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiimoteDeviceConnection.h; sourceTree = "<group>"; };
+		FAF59B4B12524B1F007C3C5C /* WiimoteDeviceConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiimoteDeviceConnection.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289988505E68E00004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA810C5612266E0100728525 /* IOBluetooth.framework in Frameworks */,
+				FA810CBF122689C800728525 /* Foundation.framework in Frameworks */,
+				FA810E5112268F8F00728525 /* CoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA41B81212AF855500FA0DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA41B86A12AF96BE00FA0DEF /* libwiiuse.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA98DCF7124B8F2D0041D374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA98DD0A124B8FA60041D374 /* libwiiuse.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* wiiuse */ = {
+			isa = PBXGroup;
+			children = (
+				FA98DCE8124B8E460041D374 /* testing */,
+				FA810C5212266DCD00728525 /* Frameworks */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = wiiuse;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FA41B78412AD61CC00FA0DEF /* pd */,
+				FAF5994E1250DD09007C3C5C /* OSX */,
+				FA8498E2125B1E0B009A4320 /* wiiuse_0.12 */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC0630554660B00DB518D /* libwiiuse.dylib */,
+				FA98DCF9124B8F2D0041D374 /* test */,
+				FA41B81412AF855600FA0DEF /* wiimotes.pd_darwin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA41B78412AD61CC00FA0DEF /* pd */ = {
+			isa = PBXGroup;
+			children = (
+				FA41B8A612B61F0800FA0DEF /* wiimotes.c */,
+				FA41B78512AD625A00FA0DEF /* m_pd.h */,
+			);
+			name = pd;
+			sourceTree = "<group>";
+		};
+		FA810C5212266DCD00728525 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA810C5512266E0100728525 /* IOBluetooth.framework */,
+				FA810CBE122689C800728525 /* Foundation.framework */,
+				FA810E5012268F8F00728525 /* CoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA8498E2125B1E0B009A4320 /* wiiuse_0.12 */ = {
+			isa = PBXGroup;
+			children = (
+				FA8498E3125B1E0B009A4320 /* classic.c */,
+				FA8498E4125B1E0B009A4320 /* classic.h */,
+				FA8498E5125B1E0B009A4320 /* definitions.h */,
+				FA8498E6125B1E0B009A4320 /* dynamics.c */,
+				FA8498E7125B1E0B009A4320 /* dynamics.h */,
+				FA8498E8125B1E0B009A4320 /* events.c */,
+				FA8498E9125B1E0B009A4320 /* events.h */,
+				FA8498EA125B1E0B009A4320 /* guitar_hero_3.c */,
+				FA8498EB125B1E0B009A4320 /* guitar_hero_3.h */,
+				FA8498EC125B1E0B009A4320 /* io.c */,
+				FA8498ED125B1E0B009A4320 /* io.h */,
+				FA8498EE125B1E0B009A4320 /* io_nix.c */,
+				FA8498EF125B1E0B009A4320 /* io_osx.orig.m */,
+				FA8498F0125B1E0B009A4320 /* io_win.c */,
+				FA8498F1125B1E0B009A4320 /* ir.c */,
+				FA8498F2125B1E0B009A4320 /* ir.h */,
+				FA8498F9125B1E0B009A4320 /* nunchuk.c */,
+				FA8498FA125B1E0B009A4320 /* nunchuk.h */,
+				FA8498FB125B1E0B009A4320 /* os.h */,
+				FA8498FC125B1E0B009A4320 /* wiiuse.c */,
+				FA8498FD125B1E0B009A4320 /* wiiuse.h */,
+				FA8498FE125B1E0B009A4320 /* wiiuse_internal.h */,
+				FA02438E12A3BCFD00E84AF4 /* motion_plus.h */,
+				FA02438F12A3BCFD00E84AF4 /* motion_plus.c */,
+			);
+			name = wiiuse_0.12;
+			path = wiiuse_v0.12/src;
+			sourceTree = "<group>";
+		};
+		FA98DCE8124B8E460041D374 /* testing */ = {
+			isa = PBXGroup;
+			children = (
+				FA98DCEA124B8E7B0041D374 /* test_and_debug.c */,
+			);
+			name = testing;
+			sourceTree = "<group>";
+		};
+		FAF5994E1250DD09007C3C5C /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+				FAF5981A1250C427007C3C5C /* io_osx.m */,
+				FAF5994F1250DD6A007C3C5C /* WiimoteDeviceInquiry.h */,
+				FAF599501250DD6A007C3C5C /* WiimoteDeviceInquiry.m */,
+				FAF59B4A12524B1F007C3C5C /* WiimoteDeviceConnection.h */,
+				FAF59B4B12524B1F007C3C5C /* WiimoteDeviceConnection.m */,
+				FAA85E9012D71E730008D815 /* Queue.h */,
+				FAA85E9112D71E730008D815 /* Queue.m */,
+				FA42512512DB55C500A044F8 /* WiimoteEventsDispatcher.h */,
+				FA42512612DB55C500A044F8 /* WiimoteEventsDispatcher.m */,
+			);
+			name = OSX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC0600554660B00DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF599511250DD6A007C3C5C /* WiimoteDeviceInquiry.h in Headers */,
+				FAF59B4C12524B1F007C3C5C /* WiimoteDeviceConnection.h in Headers */,
+				FA849900125B1E0B009A4320 /* classic.h in Headers */,
+				FA849901125B1E0B009A4320 /* definitions.h in Headers */,
+				FA849903125B1E0B009A4320 /* dynamics.h in Headers */,
+				FA849905125B1E0B009A4320 /* events.h in Headers */,
+				FA849907125B1E0B009A4320 /* guitar_hero_3.h in Headers */,
+				FA849909125B1E0B009A4320 /* io.h in Headers */,
+				FA84990E125B1E0B009A4320 /* ir.h in Headers */,
+				FA849911125B1E0B009A4320 /* nunchuk.h in Headers */,
+				FA849912125B1E0B009A4320 /* os.h in Headers */,
+				FA849914125B1E0B009A4320 /* wiiuse.h in Headers */,
+				FA849915125B1E0B009A4320 /* wiiuse_internal.h in Headers */,
+				FA02439012A3BCFD00E84AF4 /* motion_plus.h in Headers */,
+				FAA85E9212D71E730008D815 /* Queue.h in Headers */,
+				FA42512712DB55C500A044F8 /* WiimoteEventsDispatcher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA41B81012AF855500FA0DEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA41B81C12AF863200FA0DEF /* m_pd.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC0620554660B00DB518D /* wiiuse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "wiiuse" */;
+			buildPhases = (
+				D2AAC0600554660B00DB518D /* Headers */,
+				D2AAC0610554660B00DB518D /* Sources */,
+				D289988505E68E00004EDB86 /* Frameworks */,
+				FAF599EB1251C954007C3C5C /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wiiuse;
+			productName = wiiuse;
+			productReference = D2AAC0630554660B00DB518D /* libwiiuse.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		FA41B81312AF855500FA0DEF /* wiimotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA41B81812AF855C00FA0DEF /* Build configuration list for PBXNativeTarget "wiimotes" */;
+			buildPhases = (
+				FA41B81012AF855500FA0DEF /* Headers */,
+				FA41B81112AF855500FA0DEF /* Sources */,
+				FA41B81212AF855500FA0DEF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wiimotes;
+			productName = wiimote;
+			productReference = FA41B81412AF855600FA0DEF /* wiimotes.pd_darwin */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		FA98DCF8124B8F2D0041D374 /* test_wiiuse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA98DD09124B8F910041D374 /* Build configuration list for PBXNativeTarget "test_wiiuse" */;
+			buildPhases = (
+				FA98DCF6124B8F2D0041D374 /* Sources */,
+				FA98DCF7124B8F2D0041D374 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test_wiiuse;
+			productName = test;
+			productReference = FA98DCF9124B8F2D0041D374 /* test */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "wiiuse" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* wiiuse */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC0620554660B00DB518D /* wiiuse */,
+				FA98DCF8124B8F2D0041D374 /* test_wiiuse */,
+				FA41B81312AF855500FA0DEF /* wiimotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXRezBuildPhase section */
+		FAF599EB1251C954007C3C5C /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC0610554660B00DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA85E9312D71E730008D815 /* Queue.m in Sources */,
+				FAF5981C1250C427007C3C5C /* io_osx.m in Sources */,
+				FAF599521250DD6A007C3C5C /* WiimoteDeviceInquiry.m in Sources */,
+				FAF59B4D12524B1F007C3C5C /* WiimoteDeviceConnection.m in Sources */,
+				FA8498FF125B1E0B009A4320 /* classic.c in Sources */,
+				FA849902125B1E0B009A4320 /* dynamics.c in Sources */,
+				FA849904125B1E0B009A4320 /* events.c in Sources */,
+				FA849906125B1E0B009A4320 /* guitar_hero_3.c in Sources */,
+				FA849908125B1E0B009A4320 /* io.c in Sources */,
+				FA84990C125B1E0B009A4320 /* io_win.c in Sources */,
+				FA84990D125B1E0B009A4320 /* ir.c in Sources */,
+				FA849910125B1E0B009A4320 /* nunchuk.c in Sources */,
+				FA849913125B1E0B009A4320 /* wiiuse.c in Sources */,
+				FA02439112A3BCFD00E84AF4 /* motion_plus.c in Sources */,
+				FA42512812DB55C500A044F8 /* WiimoteEventsDispatcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA41B81112AF855500FA0DEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA41B8A712B61F0800FA0DEF /* wiimotes.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA98DCF6124B8F2D0041D374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA98DCFD124B8F3D0041D374 /* test_and_debug.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB914B08733D8E0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				MACH_O_TYPE = mh_dylib;
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = wiiuse;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+			};
+			name = Debug;
+		};
+		1DEB914C08733D8E0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = wiiuse;
+			};
+			name = Release;
+		};
+		1DEB914F08733D8E0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB915008733D8E0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		FA41B81512AF855600FA0DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_EXTENSION = pd_darwin;
+				EXECUTABLE_PREFIX = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = wiimotes;
+			};
+			name = Debug;
+		};
+		FA41B81612AF855600FA0DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = wiimote;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		FA98DCFB124B8F2E0041D374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = test;
+			};
+			name = Debug;
+		};
+		FA98DCFC124B8F2E0041D374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = test;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		FAFD29FF13003B4C00AEA8BC /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Profile;
+		};
+		FAFD2A0013003B4C00AEA8BC /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				MACH_O_TYPE = mh_dylib;
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = wiiuse;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+			};
+			name = Profile;
+		};
+		FAFD2A0113003B4C00AEA8BC /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_CFLAGS = "-pg";
+				PREBINDING = NO;
+				PRODUCT_NAME = test;
+			};
+			name = Profile;
+		};
+		FAFD2A0213003B4C00AEA8BC /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_EXTENSION = pd_darwin;
+				EXECUTABLE_PREFIX = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = wiimotes;
+			};
+			name = Profile;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "wiiuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB914B08733D8E0010E9CD /* Debug */,
+				FAFD2A0013003B4C00AEA8BC /* Profile */,
+				1DEB914C08733D8E0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "wiiuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB914F08733D8E0010E9CD /* Debug */,
+				FAFD29FF13003B4C00AEA8BC /* Profile */,
+				1DEB915008733D8E0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA41B81812AF855C00FA0DEF /* Build configuration list for PBXNativeTarget "wiimotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA41B81512AF855600FA0DEF /* Debug */,
+				FAFD2A0213003B4C00AEA8BC /* Profile */,
+				FA41B81612AF855600FA0DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA98DD09124B8F910041D374 /* Build configuration list for PBXNativeTarget "test_wiiuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA98DCFB124B8F2E0041D374 /* Debug */,
+				FAFD2A0113003B4C00AEA8BC /* Profile */,
+				FA98DCFC124B8F2E0041D374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

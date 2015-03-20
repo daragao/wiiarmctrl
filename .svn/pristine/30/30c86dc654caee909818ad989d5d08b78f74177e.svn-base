@@ -1,0 +1,406 @@
+% This file was created with JabRef 2.6.
+% Encoding: Cp1252
+
+@misc{ wiki:wiimote,
+   author = "Wikipedia",
+   title = "Wii Remote --- Wikipedia{,} The Free Encyclopedia",
+   year = "2011",
+   url = "http://en.wikipedia.org/w/index.php?title=Wii_Remote&oldid=413914517",
+   note = "[Online; accessed 15-February-2011]"
+}
+
+@misc{ wiki:wiimotionplus,
+   author = "Wikipedia",
+   title = "Wii MotionPlus --- Wikipedia{,} The Free Encyclopedia",
+   year = "2011",
+   url = "http://en.wikipedia.org/w/index.php?title=Wii_MotionPlus&oldid=413390403",
+   note = "[Online; accessed 23-February-2011]"
+}
+
+@article{10.1109/MPRV.2008.53,
+author = {Johnny Chung Lee},
+title = {Hacking the Nintendo Wii Remote},
+journal ={IEEE Pervasive Computing},
+volume = {7},
+issn = {1536-1268},
+year = {2008},
+pages = {39-45},
+doi = {http://doi.ieeecomputersociety.org/10.1109/MPRV.2008.53},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+}
+
+@incollection {springerlink:robotontheleash,
+   author = {Olufs, Sven and Vincze, Markus},
+   affiliation = {Technische Universit‰t Wien Automation and Control Institute Guﬂhausstraﬂe 27ñ29 / E376 1040 Wien Austria},
+   title = {Robot on the Leash $-$ An Intuitive Inexpensive Interface for Robots Using the Nintendo Wii Remote},
+   booktitle = {Advances in Robotics Research},
+   editor = {Krˆger, Torsten and Wahl, Friedrich M.},
+      publisher = {Springer Berlin Heidelberg},
+   isbn = {978-3-642-01213-6},
+   keyword = {Engineering},
+   pages = {311-321},
+   url = {http://dx.doi.org/10.1007/978-3-642-01213-6_28},
+   note = {10.1007/978-3-642-01213-6 28},
+   year = {2009}
+}
+
+@article{wiimote:lowcostmultipledegrees,
+	affiliation = {School of Computer Science and Software Engineering, University of Wollongong, Australia },
+  title={{Low-cost multiple degrees-of-freedom optical tracking for 3d interaction in head-mounted display virtual reality}},
+  author={Chow, Y.W.},
+  journal={International Journal of Recent Trends in Engineering},
+  volume={1},
+  number={1},
+  pages={52--56},
+  year={2009}
+}
+
+@article{wiimote:bascetincelik2009wiirobot,
+  title={{WiiRobot: Controlling Robots with Wii Gestures}},
+  author={Bas{\c{c}}etin{\c{c}}elik, A.},
+  journal={Providence, RI: Department of Computer Science Brown University},
+  year={2009}
+}
+
+@INPROCEEDINGS{Nacke:2010:WVC:1920778.1920801,
+  author = {Nacke, Lennart E.},
+  title = {Wiimote vs. controller: electroencephalographic measurement of affective	gameplay interaction},
+  booktitle = {Proceedings of the International Academic Conference on the Future	of Game Design and Technology},
+  year = {2010},
+  series = {Futureplay '10},
+  pages = {159--166},
+  address = {New York, NY, USA},
+  publisher = {ACM},
+  acmid = {1920801},
+  doi = {http://doi.acm.org/10.1145/1920778.1920801},
+  isbn = {978-1-4503-0235-7},
+  keywords = {affective computing, digital games, electroencephalography (EEG),
+	entertainment, psychophysiology, user experience (UX)},
+  location = {Vancouver, British Columbia, Canada},
+  numpages = {8},
+  url = {http://doi.acm.org/10.1145/1920778.1920801}
+}
+
+@inproceedings{WiiArts:Lee:2008:WCC:1347390.1347400,
+ author = {Lee, Hyun-Jean and Kim, Hyungsin and Gupta, Gaurav and Mazalek, Ali},
+ title = {WiiArts: creating collaborative art experience with WiiRemote interaction},
+ booktitle = {Proceedings of the 2nd international conference on Tangible and embedded interaction},
+ series = {TEI '08},
+ year = {2008},
+ isbn = {978-1-60558-004-3},
+ location = {Bonn, Germany},
+ pages = {33--36},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/1347390.1347400},
+ doi = {http://doi.acm.org/10.1145/1347390.1347400},
+ acmid = {1347400},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {WiiRemotes, collaboration, creative and expressive art experiences, interactive video and sound, multi-user interaction},
+} 
+
+@inproceedings{wiimote:Guo:2008:EUT:1357054.1357076,
+ author = {Guo, Cheng and Sharlin, Ehud},
+ title = {Exploring the use of tangible user interfaces for human-robot interaction: a comparative study},
+ booktitle = {Proceeding of the twenty-sixth annual SIGCHI conference on Human factors in computing systems},
+ series = {CHI '08},
+ year = {2008},
+ isbn = {978-1-60558-011-1},
+ location = {Florence, Italy},
+ pages = {121--130},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/1357054.1357076},
+ doi = {http://doi.acm.org/10.1145/1357054.1357076},
+ acmid = {1357076},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {gesture input, human-robot interaction, tangible user interface},
+} 
+
+@article{wiimote:azmi2009wiimote,
+  title={{The Wiimote with SAPI: Creating an Accessible Low-Cost, Human Computer Interface for the Physically Disabled}},
+  author={Azmi, A. and Alsabhan, N.M. and AlDosari, M.S.},
+  journal={IJCSNS},
+  volume={9},
+  pages={12--63},
+  year={2009}
+}
+
+@INPROCEEDINGS{wiimote:humanmotionmomodels, 
+author={Smith, C. and Christensen, H.I.}, 
+booktitle={Intelligent Robots and Systems, 2009. IROS 2009. IEEE/RSJ International Conference on}, title={Wiimote robot control using human motion models}, 
+year={2009}, 
+month={October}, 
+volume={}, 
+number={}, 
+pages={5509 -5515}, 
+keywords={Wiimote robot control;human motion models;mass-market video game controllers;position control;computer games;motion control;position control;robots;}, 
+doi={10.1109/IROS.2009.5354593}, 
+ISSN={},}
+
+
+@INPROCEEDINGS{wiimote:4625137, 
+author={Leder, R.S. and Azcarate, G. and Savage, R. and Savage, S. and Sucar, L.E. and Reinkensmeyer, D. and Toxtli, C. and Roth, E. and Molina, A.}, 
+booktitle={Virtual Rehabilitation, 2008}, title={Nintendo Wii remote for computer simulated arm and wrist therapy in stroke survivors with upper extremity hemipariesis}, 
+year={2008}, 
+month={August} ,
+volume={}, 
+number={}, 
+pages={74}, 
+keywords={3D position sensor;Bluetooth wireless communication;Direct-X generated terrain;Nintendo Wii remote;Wii remote 3D accelerometer;computer simulated arm;computer simulated therapy exercises;gesture therapy system;hardware-based orientation;home-based rehabilitation exercise therapy systems;motion sensing technology;orientation sensing technology;readily accessible position sensing technology;stroke survivors;upper extremity hemipariesis;wrist therapy;Bluetooth;accelerometers;patient rehabilitation;remote consoles;sensors;telecontrol;}, 
+doi={10.1109/ICVR.2008.4625137}, 
+ISSN={},}
+
+
+@conference{wiimote:murgia2008low,
+  title={Low$-$cost optical tracking for immersive collaboration in the CAVE using the Wii Remote},
+  author={Murgia, A. and Wolff, R. and Sharkey, PM and Clark, B.},
+  booktitle = {7th International Conference on Disability, Virtual Reality and Associated Technologies with ArtAbilitation},
+  year={2008},
+  organization={ICDVRAT}
+} 
+
+@inproceedings{wiimote:Scherfgen:2009:TUM:1639601.1639620,
+ author = {Scherfgen, David and Herpers, Rainer},
+ title = {3D tracking using multiple Nintendo Wii Remotes: a simple consumer hardware tracking approach},
+ booktitle = {Proceedings of the 2009 Conference on Future Play on @ GDC Canada},
+ series = {Future Play '09},
+ year = {2009},
+ isbn = {978-1-60558-685-4},
+ location = {Vancouver, British Columbia, Canada},
+ pages = {31--32},
+ numpages = {2},
+ url = {http://doi.acm.org/10.1145/1639601.1639620},
+ doi = {http://doi.acm.org/10.1145/1639601.1639620},
+ acmid = {1639620},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Nintendo Wii remote, camera calibration, tracking, triangulation},
+} 
+
+@article{wiimote:10.1109/MCG.2009.109,
+author = {Chadwick A. Wingrave and Brian Williamson and Paul D. Varcholik and Jeremy Rose and Andrew Miller and Emiko Charbonneau and Jared Bott and Joseph J. LaViola Jr.},
+title = {The Wiimote and Beyond: Spatially Convenient Devices for 3D User Interfaces},
+journal ={IEEE Computer Graphics and Applications},
+volume = {30},
+issn = {0272-1716},
+year = {2010},
+pages = {71-85},
+doi = {http://doi.ieeecomputersociety.org/10.1109/MCG.2009.109},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+}
+
+@article{wiimote:dufourdevelopment,
+  title={{Development of a Toolkit for the Wii MotionPlus: Calibration, Data Recording and Visualization}},
+  author={Dufour, T. and Geurts, L. and Windey, F.},
+  year = {},
+  journal={}
+}
+
+@ARTICLE{icub:icub2010NN,
+  author = {Giorgio Metta AND Lorenzo Natale AND Francesco Nori AND Giulio Sandini AND David Vernon AND Luciano Fadiga AND Claes von Hofsten AND Kerstin Rosander AND Manuel Lopes AND Jos√© Santos-Victor AND Alexandre Bernardino AND Luis Montesano},
+  title = {The iCub humanoid robot: An open-systems platform for research in cognitive development},
+  journal = {Neural Networks},
+  year = {2010},
+  pages = {1125-1134}
+  volume = {23},
+  number = {8-9},
+  url = {pdfs/iCubNN.pdf}
+}
+
+@inproceedings{icub:Metta:2008:IHR:1774674.1774683,
+ author = {Metta, Giorgio and Sandini, Giulio and Vernon, David and Natale, Lorenzo and Nori, Francesco},
+ title = {The iCub humanoid robot: an open platform for research in embodied cognition},
+ booktitle = {Proceedings of the 8th Workshop on Performance Metrics for Intelligent Systems},
+ series = {PerMIS '08},
+ year = {2008},
+ isbn = {978-1-60558-293-1},
+ location = {Gaithersburg, Maryland},
+ pages = {50--56},
+ numpages = {7},
+ url = {http://doi.acm.org/10.1145/1774674.1774683},
+ doi = {http://doi.acm.org/10.1145/1774674.1774683},
+ acmid = {1774683},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {cognitive systems, humanoid robotics, open source, software modularity},
+} 
+
+@INPROCEEDINGS{icub:5650851, 
+author={Pattacini, U. and Nori, F. and Natale, L. and Metta, G. and Sandini, G.}, 
+booktitle={Intelligent Robots and Systems (IROS), 2010 IEEE/RSJ International Conference on}, title={An experimental evaluation of a novel minimum-jerk cartesian controller for humanoid robots}, 
+year={2010}, 
+month={October} ,
+volume={}, 
+number={}, 
+pages={1668 -1674}, 
+keywords={generic robot manipulator;human-like motion;humanoid robotics;iCub platform;minimum-jerk cartesian controller;trajectory online;humanoid robots;manipulators;mobile robots;motion control;}, 
+doi={10.1109/IROS.2010.5650851}, 
+ISSN={2153-0858},}
+
+@inproceedings{icub:Metta:2008:IHR:1774674.1774683,
+ author = {Metta, Giorgio and Sandini, Giulio and Vernon, David and Natale, Lorenzo and Nori, Francesco},
+ title = {The iCub humanoid robot: an open platform for research in embodied cognition},
+ booktitle = {Proceedings of the 8th Workshop on Performance Metrics for Intelligent Systems},
+ series = {PerMIS '08},
+ year = {2008},
+ isbn = {978-1-60558-293-1},
+ location = {Gaithersburg, Maryland},
+ pages = {50--56},
+ numpages = {7},
+ url = {http://doi.acm.org/10.1145/1774674.1774683},
+ doi = {http://doi.acm.org/10.1145/1774674.1774683},
+ acmid = {1774683},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {cognitive systems, humanoid robotics, open source, software modularity},
+}
+
+@Book{ book:nla.cat-vn5126273,
+author = { Turkle, Sherry. },
+title = { Alone together : why we expect more from technology and less from each other / Sherry Turkle },
+isbn = { 9780465010219 9780465022342 },
+publisher = { Basic Books, New York : },
+pages = { xvii, 360 p. ; },
+year = { 2011 },
+type = { Book },
+language = { English },
+subjects = { Information technology - Social aspects.; Interpersonal relations.; Human-computer interaction. },
+life-dates = { 2011 -  },
+catalogue-url = { http://nla.gov.au/nla.cat-vn5126273 },
+}
+
+
+@inproceedings{hri:Ou:2010:MCG:1734454.1734563,
+ author = {Ou, Shichao and Grupen, Roderic},
+ title = {From manipulation to communicative gesture},
+ booktitle = {Proceeding of the 5th ACM/IEEE international conference on Human-robot interaction},
+ series = {HRI '10},
+ year = {2010},
+ isbn = {978-1-4244-4893-7},
+ location = {Osaka, Japan},
+ pages = {325--332},
+ numpages = {8},
+ url = {http://doi.acm.org/10.1145/1734454.1734563},
+ doi = {http://doi.acm.org/10.1145/1734454.1734563},
+ acmid = {1734563},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {communicative behavior, developmental robotics, human-robot interaction, knowledge acquisition},
+} 
+
+@ARTICLE{hri:1512452, 
+author={Kofman, J. and Xianghai Wu and Luu, T.J. and Verma, S.}, 
+journal={Industrial Electronics, IEEE Transactions on}, title={Teleoperation of a robot manipulator using a vision-based human-robot interface}, 
+year={2005}, 
+month={October}, 
+volume={52}, 
+number={5}, 
+pages={ 1206 - 1219}, 
+keywords={ end-effector; hand-arm motion; human-robot interface; object manipulation task; position control; remote teleoperation; robot manipulator; robot-vision; semi-autonomous control; shared control; six-degree-of-freedom motion; unnatural human motion; unstructured dynamic environment; vision-based approach; vision-based tracking; end effectors; humanoid robots; manipulator dynamics; position control; robot vision; telerobotics;}, 
+doi={10.1109/TIE.2005.855696}, 
+ISSN={0278-0046},}
+
+@inproceedings{hri:Sauser:2011:LIL:1957656.1957798,
+ author = {Sauser, Eric and Argall, Brenna and Billard, Aude},
+ title = {The life of icub, a little humanoid robot learning from humans through tactile sensing},
+ booktitle = {Proceedings of the 6th international conference on Human-robot interaction},
+ series = {HRI '11},
+ year = {2011},
+ isbn = {978-1-4503-0561-7},
+ location = {Lausanne, Switzerland},
+ pages = {393--394},
+ numpages = {2},
+ url = {http://doi.acm.org/10.1145/1957656.1957798},
+ doi = {http://doi.acm.org/10.1145/1957656.1957798},
+ acmid = {1957798},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {human-robot interaction, policy refinement and reuse, tactile sensing},
+} 
+
+@ARTICLE{hri:5480475, 
+author={Calinon, S. and D'halluin, F. and Sauser, E.L. and Caldwell, D.G. and Billard, A.G.}, 
+journal={Robotics Automation Magazine, IEEE}, title={Learning and Reproduction of Gestures by Imitation}, 
+year={2010}, 
+month={June} , 
+volume={17}, 
+number={2}, 
+pages={44 -54}, 
+keywords={Gaussian mixture regression;dynamical system;gesture reproduction;hidden Markov model;imitation learning;information encapsulation;robot learning;statistical representation;Gaussian processes;control engineering education;gesture recognition;hidden Markov models;humanoid robots;learning (artificial intelligence);robot programming;}, 
+doi={10.1109/MRA.2010.936947}, 
+ISSN={1070-9932},}
+
+@article {hri:springerlink:10.1007/s12369-010-0081-8,
+   author = {Young, James and Sung, JaYoung and Voida, Amy and Sharlin, Ehud and Igarashi, Takeo and Christensen, Henrik and Grinter, Rebecca},
+   affiliation = {University of Calgary, Calgary, Canada},
+   title = {Evaluating Human-Robot Interaction},
+   journal = {International Journal of Social Robotics},
+   publisher = {Springer Netherlands},
+   issn = {1875-4791},
+   keyword = {Engineering},
+   pages = {53-67},
+   volume = {3},
+   issue = {1},
+   url = {http://dx.doi.org/10.1007/s12369-010-0081-8},
+   note = {10.1007/s12369-010-0081-8},
+   year = {2011}
+}
+
+@inproceedings{kinect:Droeschel:2011:LIP:1957656.1957822,
+ author = {Droeschel, David and St\"{u}ckler, J\"{o}rg and Behnke, Sven},
+ title = {Learning to interpret pointing gestures with a time-of-flight camera},
+ booktitle = {Proceedings of the 6th international conference on Human-robot interaction},
+ series = {HRI '11},
+ year = {2011},
+ isbn = {978-1-4503-0561-7},
+ location = {Lausanne, Switzerland},
+ pages = {481--488},
+ numpages = {8},
+ url = {http://doi.acm.org/10.1145/1957656.1957822},
+ doi = {http://doi.acm.org/10.1145/1957656.1957822},
+ acmid = {1957822},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {gesture recognition, human-robot interaction},
+} 
+ 
+ @INPROCEEDINGS{hri:eu,
+author={Purkayastha, S.N. and Eckenstein, N. and Byrne, M.D. and O'Malley, M.K.},
+booktitle={Advanced Intelligent Mechatronics (AIM), 2010 IEEE/ASME International Conference on}, title={Analysis and comparison of low cost gaming controllers for motion analysis},
+year={2010},
+month={july},
+volume={},
+number={},
+pages={353 -360},
+keywords={Nintendo Wiimote;Sony Playstation 3 Sixaxis;gaming controller;high resolution encoder;motion analysis;motion capture;onboard sensing capability;sensors;computer interfaces;controllers;sensors;telecontrol;},
+doi={10.1109/AIM.2010.5695830},
+ISSN={},}
+ 
+ 
+@INPROCEEDINGS{hri:Yanco04classifyinghuman-robot,
+    author = {Holly A. Yanco},
+    title = {Classifying Human-Robot Interaction: An Updated Taxonomy},
+    booktitle = {Proc IEEE SMC},
+    year = {2004},
+    pages = {2841--2846}
+}
+
+@ARTICLE{hri:robonaut,
+  author = {Bluethmann, William and Ambrose, Robert and Diftler, Myron and Askew,
+	Scott and Huber, Eric and Goza, Michael and Rehnmark, Fredrik and
+	Lovchik, Chris and Magruder, Darby},
+  title = {Robonaut: A Robot Designed to Work with Humans in Space},
+  journal = {Autonomous Robots},
+  year = {2003},
+  volume = {14},
+  pages = {179-197},
+  note = {10.1023/A:1022231703061},
+  issn = {0929-5593},
+  issue = {2},
+  keyword = {Computer Science},
+  publisher = {Springer Netherlands},
+  url = {http://dx.doi.org/10.1023/A:1022231703061}
+}

@@ -1,0 +1,55 @@
+
+\input{setup}
+
+\begin{document}
+
+% number the pages in roman
+\setcounter{page}{1}
+\pagenumbering{roman}
+
+\input{capa}
+
+\input{acknowlegedes_abstract}
+
+\acresetall
+
+\newpage
+\tableofcontents
+
+\newpage
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+
+\newpage
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables 
+
+\newpage
+\addcontentsline{toc}{chapter}{List of Abbreviations}
+\chapter*{List of Abbreviations}
+\input{acronimos}
+
+\acresetall
+
+\cleardoublepage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+\input{desenvolvimento}
+
+\appendix
+\chapter{Related work Appendix}
+	\section{Wiimote manual}\label{appendix:Wiimote manual}
+	\includepdf[pages=5,landscape=true]{wiimoteSpecs.pdf}
+\chapter{Evaluation Appendix}
+	\section{Tests presentation}\label{appendix:Tests presentation}
+	\includepdf[pages=-,nup=2x3,frame=true]{TESTSPPT.pdf}
+	\section{Questionnaire form}\label{appendix:questionnaire}
+	\includepdf[pages=1]{questionnaire1.pdf}
+	\includepdf[pages=-]{questionnaire2.pdf}
+	\section{Questionnaire results}\label{appendix:questionnaireResults}
+	\includepdf[pages=-]{questionaireResults.pdf}
+	\includepdf[pages=-,width=160mm,nup=1x2,delta=40mm 40mm]{questionaireGraphs-crop.pdf}
+
+\input{references_bibliography}
+
+\end{document}

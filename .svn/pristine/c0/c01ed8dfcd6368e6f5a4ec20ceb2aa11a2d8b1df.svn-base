@@ -1,0 +1,1 @@
+START "[iCubKinectSkeleton]" Kinect_iCub\build\Release\Kinect_iCub.exe --from Kinect_iCub/Kinect_iCub.ini

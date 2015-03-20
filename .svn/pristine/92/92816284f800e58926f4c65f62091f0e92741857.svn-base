@@ -1,0 +1,10 @@
+
+	Robots have been increasing in complexity as they have increased on ability. Particularly in humanoids this complexity is evident. Many times this complexity is solved providing autonomy to the robot. Although the autonomy level achieved today is not enough for some of the tasks that robots are trying to solve. In another front, games have also become very complex, and in a way some games have similar needs to the needs in \ac{HRI}.
+	
+	Recently gaming companies have started to release new and appealing interfaces to simplify and make more natural the \ac{HCI}. These interfaces are intended to be used by non core gamers so they are typically simple and robust. Also because these devices are sold massively, the price tends to be very low for a high tech device. The easy access to these devices enabled the creation of Internet gathering points where hobbyists, professionals and researchers, discuss and expose their work, which many times features novel and unexpected interaction methods. \ac{HRI} has also been taking advantage from this movement, using it as inspiration for the resolution of interaction problems between complex robots and humans.
+	
+	The iCub is an humanoid robot that replicates a child in size and ability of movements\cite{icub:icub2010NN}. This humanoid is intended to be used in projects that range from psychology to services. Currently the interaction with the iCub is made through a \ac{GUI}, or through coding, although this solution is not simple to use.
+	
+	The novel interface devices released and the movement created around them, serve as inspiration to this work as a new solution to an classical problem of \ac{HRI}. The goal of this work is not only to develop useful solutions using these devices but also to understand how they compare to typical interfaces as a human commands using the iCub robot.
+
+	The two main contributions of this work are a set of applications for the iCub control using these interface devices, and the results of a evaluation done with human subjects and several different interfaces.

@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FA98DCFA124B8F2D0041D374 /* test_wiiuse */;
+		activeTarget = FA41B81312AF855500FA0DEF /* wiimotes */;
+		addToTargets = (
+			D2AAC0620554660B00DB518D /* wiiuse */,
+		);
+		breakpoints = (
+			FAB1CD8312DF12BC00368EA8 /* io_osx.m:189 */,
+			FAA9966212F8141A0063547A /* WiimoteEventsDispatcher.m:108 */,
+		);
+		codeSenseManager = FA810C2012266B4B00728525 /* Code sense */;
+		executables = (
+			FA98DCFA124B8F2D0041D374 /* test_wiiuse */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_ContinueID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					252,
+					20,
+					152,
+					111,
+					132,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CE0B20506471E060097A5F4" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					286,
+					20,
+					185,
+					185,
+					114,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					548,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					660,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					463,
+					411.20849609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolTypeID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					96,
+					600,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					620,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 332688291;
+			PBXWorkspaceStateSaveDate = 332688291;
+		};
+		perUserProjectItems = {
+			FA03554913D42DB4000CFF29 /* PBXTextBookmark */ = FA03554913D42DB4000CFF29 /* PBXTextBookmark */;
+			FA140BE11369970A00E1E94C /* PBXTextBookmark */ = FA140BE11369970A00E1E94C /* PBXTextBookmark */;
+			FA207AE213C6FEF700077803 /* PBXTextBookmark */ = FA207AE213C6FEF700077803 /* PBXTextBookmark */;
+			FA42513412DB57B200A044F8 /* PBXTextBookmark */ = FA42513412DB57B200A044F8 /* PBXTextBookmark */;
+			FA42513612DB57B200A044F8 /* PBXTextBookmark */ = FA42513612DB57B200A044F8 /* PBXTextBookmark */;
+			FA65BB1A13AF60FE0063BB71 /* PBXTextBookmark */ = FA65BB1A13AF60FE0063BB71 /* PBXTextBookmark */;
+			FA9DE38613B09A250077847B /* PBXTextBookmark */ = FA9DE38613B09A250077847B /* PBXTextBookmark */;
+			FAA67E8A13D46E9C00134AEB /* PBXTextBookmark */ = FAA67E8A13D46E9C00134AEB /* PBXTextBookmark */;
+			FAA67E8B13D46E9C00134AEB /* PBXTextBookmark */ = FAA67E8B13D46E9C00134AEB /* PBXTextBookmark */;
+			FAA67E8C13D46E9C00134AEB /* PBXTextBookmark */ = FAA67E8C13D46E9C00134AEB /* PBXTextBookmark */;
+			FAA67E8D13D46E9C00134AEB /* PBXTextBookmark */ = FAA67E8D13D46E9C00134AEB /* PBXTextBookmark */;
+			FAA67E8E13D46E9C00134AEB /* PBXTextBookmark */ = FAA67E8E13D46E9C00134AEB /* PBXTextBookmark */;
+			FAA67E8F13D46E9C00134AEB /* PBXTextBookmark */ = FAA67E8F13D46E9C00134AEB /* PBXTextBookmark */;
+			FAA67E9013D46E9C00134AEB /* PBXTextBookmark */ = FAA67E9013D46E9C00134AEB /* PBXTextBookmark */;
+			FAA67E9113D46E9C00134AEB /* PBXTextBookmark */ = FAA67E9113D46E9C00134AEB /* PBXTextBookmark */;
+			FAA67E9213D46E9C00134AEB /* PBXTextBookmark */ = FAA67E9213D46E9C00134AEB /* PBXTextBookmark */;
+			FAA67E9313D46E9C00134AEB /* PBXTextBookmark */ = FAA67E9313D46E9C00134AEB /* PBXTextBookmark */;
+			FAA67E9413D46E9C00134AEB /* PBXTextBookmark */ = FAA67E9413D46E9C00134AEB /* PBXTextBookmark */;
+			FAA85EE312D73BD40008D815 /* PBXTextBookmark */ = FAA85EE312D73BD40008D815 /* PBXTextBookmark */;
+			FAB1CD1512DEF58100368EA8 /* PBXTextBookmark */ = FAB1CD1512DEF58100368EA8 /* PBXTextBookmark */;
+		};
+		sourceControlManager = FA810C1F12266B4B00728525 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	D2AAC0620554660B00DB518D /* wiiuse */ = {
+		activeExec = 0;
+	};
+	FA02438E12A3BCFD00E84AF4 /* motion_plus.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 597}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 339}";
+			sepNavWindowFrame = "{{61, 43}, {971, 1088}}";
+		};
+	};
+	FA02438F12A3BCFD00E84AF4 /* motion_plus.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 1875}}";
+			sepNavSelRange = "{2377, 22}";
+			sepNavVisRange = "{2143, 903}";
+		};
+	};
+	FA03554913D42DB4000CFF29 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA8498FC125B1E0B009A4320 /* wiiuse.c */;
+		name = "wiiuse.c: 116";
+		rLen = 2;
+		rLoc = 2562;
+		rType = 0;
+		vrLen = 412;
+		vrLoc = 2335;
+	};
+	FA140BE11369970A00E1E94C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA41B8A612B61F0800FA0DEF /* wiimotes.c */;
+		name = "wiimotes.c: 91";
+		rLen = 0;
+		rLoc = 1928;
+		rType = 0;
+		vrLen = 418;
+		vrLoc = 1273;
+	};
+	FA207AE213C6FEF700077803 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA8498FD125B1E0B009A4320 /* wiiuse.h */;
+		name = "wiiuse.h: 641";
+		rLen = 8;
+		rLoc = 17626;
+		rType = 0;
+		vrLen = 604;
+		vrLoc = 17383;
+	};
+	FA41B78512AD625A00FA0DEF /* m_pd.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 10125}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1249}";
+			sepNavWindowFrame = "{{-1322, 0}, {971, 1050}}";
+		};
+	};
+	FA41B81312AF855500FA0DEF /* wiimotes */ = {
+		activeExec = 0;
+	};
+	FA41B8A612B61F0800FA0DEF /* wiimotes.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 5430}}";
+			sepNavSelRange = "{520, 32}";
+			sepNavVisRange = "{401, 1399}";
+			sepNavWindowFrame = "{{349, 143}, {868, 1035}}";
+		};
+	};
+	FA42512512DB55C500A044F8 /* WiimoteEventsDispatcher.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 405}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 751}";
+			sepNavWindowFrame = "{{15, 90}, {1054, 1083}}";
+		};
+	};
+	FA42512612DB55C500A044F8 /* WiimoteEventsDispatcher.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 1830}}";
+			sepNavSelRange = "{2196, 0}";
+			sepNavVisRange = "{2414, 1114}";
+			sepNavWindowFrame = "{{225, 4}, {1054, 1050}}";
+		};
+	};
+	FA42513412DB57B200A044F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA8498F0125B1E0B009A4320 /* io_win.c */;
+		name = "io_win.c: 172";
+		rLen = 950;
+		rLoc = 4173;
+		rType = 0;
+		vrLen = 950;
+		vrLoc = 4173;
+	};
+	FA42513612DB57B200A044F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA8498E3125B1E0B009A4320 /* classic.c */;
+		name = "classic.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 994;
+		vrLoc = 0;
+	};
+	FA65BB1A13AF60FE0063BB71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA8498E8125B1E0B009A4320 /* events.c */;
+		name = "events.c: 709";
+		rLen = 11;
+		rLoc = 20656;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 20347;
+	};
+	FA810C1F12266B4B00728525 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FA810C2012266B4B00728525 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FA8498E3125B1E0B009A4320 /* classic.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 3015}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 994}";
+		};
+	};
+	FA8498E4125B1E0B009A4320 /* classic.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 946}}";
+			sepNavSelRange = "{1332, 0}";
+			sepNavVisRange = "{0, 1332}";
+			sepNavWindowFrame = "{{-1005, 0}, {971, 1050}}";
+		};
+	};
+	FA8498E5125B1E0B009A4320 /* definitions.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 1200}}";
+			sepNavSelRange = "{1265, 87}";
+			sepNavVisRange = "{894, 1082}";
+			sepNavWindowFrame = "{{84, 58}, {995, 1052}}";
+		};
+	};
+	FA8498E6125B1E0B009A4320 /* dynamics.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1053, 3480}}";
+			sepNavSelRange = "{3129, 4}";
+			sepNavVisRange = "{2095, 2040}";
+			sepNavWindowFrame = "{{479, 45}, {1112, 1133}}";
+		};
+	};
+	FA8498E7125B1E0B009A4320 /* dynamics.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 855}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1178}";
+		};
+	};
+	FA8498E8125B1E0B009A4320 /* events.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 12990}}";
+			sepNavSelRange = "{20656, 11}";
+			sepNavVisRange = "{20347, 464}";
+			sepNavWindowFrame = "{{457, 128}, {971, 1050}}";
+		};
+	};
+	FA8498E9125B1E0B009A4320 /* events.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1081, 990}}";
+			sepNavSelRange = "{1215, 0}";
+			sepNavVisRange = "{13, 1689}";
+			sepNavWindowFrame = "{{367, 157}, {1140, 1021}}";
+		};
+	};
+	FA8498EA125B1E0B009A4320 /* guitar_hero_3.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 2640}}";
+			sepNavSelRange = "{2585, 19}";
+			sepNavVisRange = "{2033, 1152}";
+		};
+	};
+	FA8498EB125B1E0B009A4320 /* guitar_hero_3.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 900}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1204}";
+		};
+	};
+	FA8498EC125B1E0B009A4320 /* io.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1068, 6150}}";
+			sepNavSelRange = "{1941, 0}";
+			sepNavVisRange = "{1490, 600}";
+			sepNavWindowFrame = "{{-1105, 0}, {896, 1050}}";
+		};
+	};
+	FA8498ED125B1E0B009A4320 /* io.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 960}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1149}";
+		};
+	};
+	FA8498EE125B1E0B009A4320 /* io_nix.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 3960}}";
+			sepNavSelRange = "{1775, 11}";
+			sepNavVisRange = "{922, 1807}";
+			sepNavWindowFrame = "{{365, 128}, {971, 1050}}";
+		};
+	};
+	FA8498EF125B1E0B009A4320 /* io_osx.orig.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 4950}}";
+			sepNavSelRange = "{5644, 51}";
+			sepNavVisRange = "{6514, 770}";
+			sepNavWindowFrame = "{{197, 112}, {969, 1066}}";
+		};
+	};
+	FA8498F0125B1E0B009A4320 /* io_win.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 3870}}";
+			sepNavSelRange = "{4173, 950}";
+			sepNavVisRange = "{4173, 950}";
+			sepNavWindowFrame = "{{159, 128}, {971, 1050}}";
+		};
+	};
+	FA8498F1125B1E0B009A4320 /* ir.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 11235}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1046}";
+		};
+	};
+	FA8498F2125B1E0B009A4320 /* ir.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 810}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1051}";
+		};
+	};
+	FA8498F9125B1E0B009A4320 /* nunchuk.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 3390}}";
+			sepNavSelRange = "{2435, 19}";
+			sepNavVisRange = "{1947, 1303}";
+		};
+	};
+	FA8498FA125B1E0B009A4320 /* nunchuk.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 780}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1128}";
+		};
+	};
+	FA8498FB125B1E0B009A4320 /* os.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 855}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1123}";
+		};
+	};
+	FA8498FC125B1E0B009A4320 /* wiiuse.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 13425}}";
+			sepNavSelRange = "{2562, 2}";
+			sepNavVisRange = "{2335, 412}";
+			sepNavWindowFrame = "{{457, 128}, {971, 1050}}";
+		};
+	};
+	FA8498FD125B1E0B009A4320 /* wiiuse.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 11445}}";
+			sepNavSelRange = "{19313, 0}";
+			sepNavVisRange = "{17362, 2740}";
+			sepNavWindowFrame = "{{-1140, 0}, {971, 1050}}";
+		};
+	};
+	FA8498FE125B1E0B009A4320 /* wiiuse_internal.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 4005}}";
+			sepNavSelRange = "{2213, 34}";
+			sepNavVisRange = "{1745, 1739}";
+			sepNavWindowFrame = "{{406, 96}, {727, 1028}}";
+		};
+	};
+	FA98DCEA124B8E7B0041D374 /* test_and_debug.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 8475}}";
+			sepNavSelRange = "{13134, 7}";
+			sepNavVisRange = "{12879, 386}";
+			sepNavWindowFrame = "{{550, 43}, {971, 1050}}";
+		};
+	};
+	FA98DCF8124B8F2D0041D374 /* test_wiiuse */ = {
+		activeExec = 0;
+		executables = (
+			FA98DCFA124B8F2D0041D374 /* test_wiiuse */,
+		);
+	};
+	FA98DCFA124B8F2D0041D374 /* test_wiiuse */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			debug,
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = test_wiiuse;
+		savedGlobals = {
+		};
+		showTypeColumn = 1;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$fs = 1;
+			$gs = 1;
+			$ss = 1;
+			"*msg-unsigned char-propagate_event" = 1;
+			"1-byte-wiiuse_set_report_type" = 1;
+			"ret-IOReturn--[WiimoteDeviceConnection openChannels]" = 1;
+			"status-IOReturn-wiiuse_connect" = 1;
+			"x-byte-propagate_event" = 1;
+		};
+	};
+	FA9DE38613B09A250077847B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA98DCEA124B8E7B0041D374 /* test_and_debug.c */;
+		name = "test_and_debug.c: 397";
+		rLen = 7;
+		rLoc = 13134;
+		rType = 0;
+		vrLen = 386;
+		vrLoc = 12879;
+	};
+	FAA67E8A13D46E9C00134AEB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAA85E9012D71E730008D815 /* Queue.h */;
+		name = "Queue.h: 9";
+		rLen = 0;
+		rLoc = 129;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 0;
+	};
+	FAA67E8B13D46E9C00134AEB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAA85E9112D71E730008D815 /* Queue.m */;
+		name = "Queue.m: 25";
+		rLen = 0;
+		rLoc = 353;
+		rType = 0;
+		vrLen = 402;
+		vrLoc = 172;
+	};
+	FAA67E8C13D46E9C00134AEB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAF59B4A12524B1F007C3C5C /* WiimoteDeviceConnection.h */;
+		name = "WiimoteDeviceConnection.h: 36";
+		rLen = 0;
+		rLoc = 953;
+		rType = 0;
+		vrLen = 571;
+		vrLoc = 445;
+	};
+	FAA67E8D13D46E9C00134AEB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAF59B4B12524B1F007C3C5C /* WiimoteDeviceConnection.m */;
+		name = "WiimoteDeviceConnection.m: 31";
+		rLen = 0;
+		rLoc = 652;
+		rType = 0;
+		vrLen = 584;
+		vrLoc = 0;
+	};
+	FAA67E8E13D46E9C00134AEB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAF5994F1250DD6A007C3C5C /* WiimoteDeviceInquiry.h */;
+		name = "WiimoteDeviceInquiry.h: 23";
+		rLen = 0;
+		rLoc = 448;
+		rType = 0;
+		vrLen = 553;
+		vrLoc = 0;
+	};
+	FAA67E8F13D46E9C00134AEB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAF599501250DD6A007C3C5C /* WiimoteDeviceInquiry.m */;
+		name = "WiimoteDeviceInquiry.m: 49";
+		rLen = 0;
+		rLoc = 1024;
+		rType = 0;
+		vrLen = 570;
+		vrLoc = 1779;
+	};
+	FAA67E9013D46E9C00134AEB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA42512512DB55C500A044F8 /* WiimoteEventsDispatcher.h */;
+		name = "WiimoteEventsDispatcher.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 751;
+		vrLoc = 0;
+	};
+	FAA67E9113D46E9C00134AEB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAF5981A1250C427007C3C5C /* io_osx.m */;
+		name = "io_osx.m: 30";
+		rLen = 52;
+		rLoc = 639;
+		rType = 0;
+		vrLen = 1029;
+		vrLoc = 165;
+	};
+	FAA67E9213D46E9C00134AEB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA42512612DB55C500A044F8 /* WiimoteEventsDispatcher.m */;
+		name = "WiimoteEventsDispatcher.m: 76";
+		rLen = 0;
+		rLoc = 2196;
+		rType = 0;
+		vrLen = 1114;
+		vrLoc = 2414;
+	};
+	FAA67E9313D46E9C00134AEB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA41B78512AD625A00FA0DEF /* m_pd.h */;
+		name = "m_pd.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1249;
+		vrLoc = 0;
+	};
+	FAA67E9413D46E9C00134AEB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA41B78512AD625A00FA0DEF /* m_pd.h */;
+		name = "m_pd.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1249;
+		vrLoc = 0;
+	};
+	FAA85E9012D71E730008D815 /* Queue.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 374}}";
+			sepNavSelRange = "{129, 0}";
+			sepNavVisRange = "{0, 287}";
+		};
+	};
+	FAA85E9112D71E730008D815 /* Queue.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 585}}";
+			sepNavSelRange = "{353, 0}";
+			sepNavVisRange = "{172, 402}";
+			sepNavWindowFrame = "{{445, 95}, {1054, 1083}}";
+		};
+	};
+	FAA85EE312D73BD40008D815 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA8498EF125B1E0B009A4320 /* io_osx.orig.m */;
+		name = "io_osx.orig.m: 223";
+		rLen = 51;
+		rLoc = 5644;
+		rType = 0;
+		vrLen = 770;
+		vrLoc = 6514;
+	};
+	FAA9966212F8141A0063547A /* WiimoteEventsDispatcher.m:108 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = FA42512612DB55C500A044F8 /* WiimoteEventsDispatcher.m */;
+		functionName = "-l2capChannelClosed:";
+		hitCount = 2;
+		ignoreCount = 0;
+		lineNumber = 108;
+		location = libwiiuse.dylib;
+		modificationTime = 318248177.659578;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	FAB1CD1512DEF58100368EA8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA8498F9125B1E0B009A4320 /* nunchuk.c */;
+		name = "nunchuk.c: 87";
+		rLen = 19;
+		rLoc = 2435;
+		rType = 0;
+		vrLen = 1303;
+		vrLoc = 1947;
+	};
+	FAB1CD8312DF12BC00368EA8 /* io_osx.m:189 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = FAF5981A1250C427007C3C5C /* io_osx.m */;
+		functionName = "wiiuse_connect_single()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 189;
+		location = libwiiuse.dylib;
+		modificationTime = 318247974.76748;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	FAF5981A1250C427007C3C5C /* io_osx.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 3825}}";
+			sepNavSelRange = "{639, 52}";
+			sepNavVisRange = "{165, 1029}";
+			sepNavWindowFrame = "{{275, 143}, {868, 1035}}";
+		};
+	};
+	FAF5994F1250DD6A007C3C5C /* WiimoteDeviceInquiry.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 450}}";
+			sepNavSelRange = "{448, 0}";
+			sepNavVisRange = "{0, 553}";
+			sepNavWindowFrame = "{{15, 40}, {1112, 1133}}";
+		};
+	};
+	FAF599501250DD6A007C3C5C /* WiimoteDeviceInquiry.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 1740}}";
+			sepNavSelRange = "{1024, 0}";
+			sepNavVisRange = "{1779, 570}";
+			sepNavWindowFrame = "{{205, 128}, {1112, 1050}}";
+		};
+	};
+	FAF59B4A12524B1F007C3C5C /* WiimoteDeviceConnection.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 735}}";
+			sepNavSelRange = "{953, 0}";
+			sepNavVisRange = "{445, 571}";
+			sepNavWindowFrame = "{{220, 128}, {1054, 1050}}";
+		};
+	};
+	FAF59B4B12524B1F007C3C5C /* WiimoteDeviceConnection.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 2445}}";
+			sepNavSelRange = "{652, 0}";
+			sepNavVisRange = "{0, 584}";
+			sepNavWindowFrame = "{{220, 128}, {1054, 1050}}";
+		};
+	};
+}
